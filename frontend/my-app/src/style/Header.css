@@ -1,0 +1,43 @@
+.logo {
+  background-color: var(--verde);
+  display: flex;
+  flex-shrink: 1;
+  justify-content: space-between;
+}
+.logo-background {
+  background-color: var(--verde);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+section img {
+  background-color: white;
+  color: var(--black);
+  border-radius: 50%;
+  width: fit-content;
+  color: var(--black);
+  flex-grow: 1 1;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--black);
+  display: flex;
+  margin: 1rem;
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+.logo-background div {
+  display: flex;
+}
+section span {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}

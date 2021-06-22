@@ -1,0 +1,92 @@
+.form-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+.button0 {
+  flex-grow: 1;
+  justify-content: center;
+  font-size: large;
+  font-weight: 500;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  margin: 1vh 0;
+  color: white;
+  background-color: var(--verde);
+  width: 100%;
+}
+.button1 {
+  flex-grow: 1;
+  justify-content: center;
+  font-size: large;
+  font-weight: 500;
+  border: solid 0.5px var(--verde);
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  margin: 1vh 0;
+  color: var(--verde-oscuro);
+  background-color: white;
+  text-decoration: none;
+  width: 100%;
+}
+.button2,
+label[for="buttoni"] {
+  flex-grow: 1;
+  justify-content: center;
+  font-size: large;
+  font-weight: 500;
+  border: solid 0.5px var(--gris-oscuro-borde);
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  color: var(--gris-oscuro-contenido);
+  background-color: white;
+  text-decoration: none;
+}
+
+.button3 {
+  flex-grow: 1;
+  align-self: flex-end;
+  font-size: large;
+  font-weight: 500;
+  border: solid 0.5px var(--gris-oscuro-borde);
+  border-radius: 5px;
+  color: var(--gris-oscuro-contenido);
+  background-color: white;
+  text-decoration: none;
+}
+
+.button0 a {
+  text-decoration-line: none;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+
+.button1 a {
+  text-decoration-line: none;
+  text-decoration: none;
+  color: var(--verde-oscuro);
+  font-size: large;
+  font-weight: 500;
+}
+
+input[type="file"]#buttoni {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+label[for="buttoni"] {
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 0.7rem;
+  margin: 10% 0 0;
+}

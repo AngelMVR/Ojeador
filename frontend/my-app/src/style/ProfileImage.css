@@ -1,0 +1,35 @@
+.profileimage {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+}
+.upload-image-wrapper {
+  margin: 12px;
+}
+.upload-image {
+  margin: 2vh;
+}
+.subidor {
+  display: block;
+  margin: 2vh auto;
+}
+.update-user-wrapper-p {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.update-user-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+.update-user-wrapper-p div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
